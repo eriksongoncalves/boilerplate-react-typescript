@@ -2,17 +2,17 @@
   "env": {
     "browser": true,
     "es2020": true,
-		"jest": true,
-		"node": true
+    "jest": true,
+    "node": true
   },
   "settings": {
-		"react": {
+    "react": {
       "version": "detect"
     },
-		"import/resolver": {
-			"typescript": {}
-		}
-	},
+    "import/resolver": {
+      "typescript": {}
+    }
+  },
   "extends": [
     "eslint:recommended",
     "plugin:react/recommended",
@@ -36,6 +36,8 @@
     "react/react-in-jsx-scope": "off",
     "@typescript-eslint/explicit-module-boundary-types": "off",
     "@typescript-eslint/no-non-null-assertion": "off",
-		"no-console": "error"
+    "no-console": "error",
+    "@typescript-eslint/no-empty-function": "off",
+    "react/display-name": "off"
   }
 }
